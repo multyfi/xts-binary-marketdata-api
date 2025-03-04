@@ -1,19 +1,14 @@
 {
-  "name": "xts-marketdata-api",
+  "name": "xts-binary-marketdata-api",
   "version": "3.0.10",
-  "description": "The official JS client library for the Symphony Fintech MarketData API's",
+  "description": "The official JS client library for the Symphony Fintech Binary MarketData API's",
   "main": "./lib/",
   "keywords": [
+    "BinaryMarketDataApi",
     "SymphonyFintech",
-    "Symphony",
-    "Fintech",
-    "trading",
-    "stockmarket",
-    "stock",
-    "Interactive",
     "ClientApp"
   ],
-  "author": "Symphony Fintech Solutions Pvt. Ltd.",
+  "author": "multyfi",
   "dependencies": {
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
@@ -26,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/symphonyfintech/xts-marketdata-nodeJS-api-client-V2"
+    "url": "https://github.com/multyfi/xts-binary-marketdata-api"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
